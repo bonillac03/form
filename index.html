@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset>
+                <legend>User Information</legend>
+                    <div class="input-uname">
+                        <label for="username">Username</label>
+                        <input type="text" id="uname" name="uname" placeholder="Carlos" required>
+                    </div>
+                    <div class="input-password">
+                        <label for="input-password">Passwword</label>
+                        <input type="password" id="password" name="passwrod" placeholder="1234carlos4321" required>
+                    </div>
+                    <div class="input-email">
+                        <label for="username">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Carlos_bonilla@gmail.com" required>
+                    </div>
+                    <div class="input-city">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Toronto" required>
+                    </div>
+                    <div class="input-website">
+                        <label for="uwebsite">Website</label>
+                        <input type="url" id="uwebsite" name="uwebsite">
+                    </div>
+                    <div class="input-age">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" min="18" max="99" step="1">
+                    </div>
+                    <div class="input-bd">
+                        <label for="bd">Birthday</label>
+                        <input type="month" id="bd" name="bd">
+                    </div>
+                    <div class="input-phone">
+                            <label for="phone">Phone Number (US format):</label>
+                            <input type="tel" id="phone" name="phone" pattern="\(\d{3}\) \d{3}-\d{4}" required>
+                    </form>
+                    </div>
+                    <div class="input-pic">
+                        <label for="picture">Profile Photo</label>
+                        <input type="file" id="picture" name="picture"><br>
+                        <button type="submit">SUBMIT</button>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <div class="input-gender">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="input-gender">
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Skills</legend>
+                <div class="input-skills">
+                    <input type="checkbox" id="html" name="skills" value="HTML">
+                    <label for="html">HTML</label>
+                </div>
+                <div class="input-skills">
+                    <input type="checkbox" id="css" name="skills" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+                <div class="input-skills">  
+                    <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Sastifaction Level</legend>
+                <div class="input-sastifaction">
+                    <label for="satisfaction">Satisfaction</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="0" max="10"><br>
+                </div>
+            </fieldset>
+    </section>
+</body> 
+</html>
